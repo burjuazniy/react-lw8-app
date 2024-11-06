@@ -5,14 +5,15 @@ export function createUser(setUsers, newUser) {
   setUsers((prevUsers) => {
     const currentUserIds = prevUsers.map((user) => user.id);
     const newId = Math.max(...currentUserIds) + 1;
-    newUser.id = newId
-    
+    newUser.id = newId;
+
     return [...prevUsers, newUser];
   });
 }
 
 export function retrieveUser(users, userId) {
-    return users.find(user => Number(user.id) === Number(userId))
+  // Function for retrieving existing user
+  return users.find((user) => Number(user.id) === Number(userId));
 }
 
 export function updateUser(setUsers, updatedUser) {
