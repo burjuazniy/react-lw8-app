@@ -1,8 +1,8 @@
-# React + Vite
+# Розробка інтерактивних мультимедійних додатків
+## ReactJS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Управління профілями співробітників
 
-Currently, two official plugins are available:
+Створення, редагування, перегляд та видалення профілів співробітників.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Додавання функцій для відстеження особистих даних, навичок, досвіду роботи та освіти.
