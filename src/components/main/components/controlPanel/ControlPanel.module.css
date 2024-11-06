@@ -1,17 +1,17 @@
 .container {
-    display: flex;
-    gap: .5rem;
-    margin-bottom: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .container button {
-    background-color: #49248d;
+  background-color: #49248d;
 }
 
 .container button:hover {
-    background-color: #7f5fba;
+  background-color: #7f5fba;
 }
 
 .container button:disabled {
-    background-color: #252525;
+  background-color: #252525;
 }

@@ -24,7 +24,7 @@ export default function UserManageForm({ changeUserId = null }) {
     if (changeUserId !== null) {
       // existing value, updating existing user
       const user = retrieveUser(users, changeUserId);
-      setUserData(user ? user : defaultUserData)
+      setUserData(user ? user : defaultUserData);
     } else {
       // default value, new user creation
       setUserData(defaultUserData);

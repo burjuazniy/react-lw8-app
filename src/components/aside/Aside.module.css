@@ -1,11 +1,11 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    background-color: var(--block-bg-color-3);
-    color: var(--text-color);
-    border-radius: 1rem;
-    min-width: 15rem;
-    box-shadow: var(--block-box-shadow);
-    margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: var(--block-bg-color-3);
+  color: var(--text-color);
+  border-radius: 1rem;
+  min-width: 15rem;
+  box-shadow: var(--block-box-shadow);
+  margin-bottom: auto;
 }
