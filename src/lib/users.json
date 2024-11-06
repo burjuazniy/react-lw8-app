@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "John H.",
+    "position": "CEO",
+    "yearsExp": 7,
+    "about": "CEO of the Compan.",
+    "email": "johnh@company.com"
+  },
+  {
+    "id": 2,
+    "name": "Anny D.",
+    "position": "HR",
+    "yearsExp": 4,
+    "about": "Head of HR department",
+    "email": "annyd@company.com"
+  },
+  {
+    "id": 3,
+    "name": "Bob E.",
+    "position": "Senior Backend Developer",
+    "yearsExp": 10,
+    "about": "Now is developing the server",
+    "email": "bobe@company.com"
+  }
+]

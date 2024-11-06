@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: var(--block-bg-color-1);
+    color: var(--text-color);
+    border-radius: 1rem;
+    box-shadow: var(--block-box-shadow);
+}
+
+.brandName {
+    font-weight: 500;
+    font-size: x-large; 
+}

@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--block-bg-color-2);
+    color: var(--text-color);
+    border-radius: 1rem;
+    box-shadow: var(--block-box-shadow);
+    margin-bottom: auto;
+}
