@@ -1,7 +1,7 @@
 // Component for updating and creating users
 
 import { useState, useEffect, useContext, useMemo } from "react";
-import { createUser, updateUser } from "../../lib/crud";
+import { createUser, retrieveUser, updateUser } from "../../lib/crud";
 import { UsersContext } from "../../lib/contexts";
 
 export default function UserManageForm({ changeUserId = null }) {
@@ -23,8 +23,8 @@ export default function UserManageForm({ changeUserId = null }) {
   useEffect(() => {
     if (changeUserId !== null) {
       // existing value, updating existing user
-      const user = users.find((el) => changeUserId === el.id);
-      setUserData(user);
+      const user = retrieveUser(users, changeUserId);
+      setUserData(user ? user : defaultUserData)
     } else {
       // default value, new user creation
       setUserData(defaultUserData);

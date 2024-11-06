@@ -1,6 +1,7 @@
 import { useState, useEffect, useContext } from "react";
 import styles from "./UserProfile.module.css";
 import { UsersContext } from "../../../../lib/contexts";
+import { retrieveUser } from "../../../../lib/crud";
 
 export default function UserProfile({ userId }) {
   const { users } = useContext(UsersContext);
@@ -9,7 +10,8 @@ export default function UserProfile({ userId }) {
 
   useEffect(() => {
     if (users && userId) {
-      setUserData(users.find((el) => userId === el.id));
+      const user = retrieveUser(users, userId);
+      setUserData(user);
     }
   }, [users, userId]);
 

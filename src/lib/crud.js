@@ -11,6 +11,10 @@ export function createUser(setUsers, newUser) {
   });
 }
 
+export function retrieveUser(users, userId) {
+    return users.find(user => Number(user.id) === Number(userId))
+}
+
 export function updateUser(setUsers, updatedUser) {
   // Function for updating existing user
   setUsers((prevUsers) =>
